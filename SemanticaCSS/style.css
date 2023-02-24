@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(238, 231, 231);  /* body é uma tag*/
+} 
+
+#menu {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(0, 14, 209);  /* # serve para ids*/
+    text-align: center;
+    padding: 10px;
+}
+
+#menu img {
+    height: 60px;
+}
+
+.linkMenu {
+    color: rgb(255, 217, 0);  /* . serve para classes*/
+    font-size: 2em;
+}
+
+.parte1 {
+    width: 100%;
+    height: 800px;
+    text-align: center;
+}
+
+.parte1 img {
+    width: 40%;
+}
+
+.parte1 h1 {
+    color: rgba(255, 0, 0, 0.842);
+}
+
+.parte1 p {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+#login {
+    text-align: center;
+    width: 40%;
+    height: 450px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(68,8,87,1) 54%, rgba(210,5,5,1) 100%);
+    margin-left: 30%;
+    margin-top: 10%;
+    
+}
+
+#login h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 217, 0);
+    
+}
