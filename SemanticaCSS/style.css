@@ -54,3 +54,31 @@ body {
     color: rgb(255, 217, 0);
     
 }
+
+.contato {
+        
+    text-align: center;
+    width: 50%;
+    height: 545px;
+    background: rgb(0,0,0);
+    background: linear-gradient(333deg, rgba(0,0,0,1) 0%, rgba(0,14,209,1) 49%, rgba(0,0,0,1) 100%);
+    margin-left: 26%;
+    margin-top: 7%;
+    border-radius: 35px;
+}
+
+.contato h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 217, 0);
+}
+
+.contato h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 217, 0);
+    background-color: black;
+    width: 60%;
+    height: 425px;
+    margin-left: 20%;
+    border-radius: 10%
+}
