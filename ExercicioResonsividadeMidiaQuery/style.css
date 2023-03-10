@@ -1,23 +1,42 @@
-.banner{
-    width: 90%;
-    height: 600px;
-    padding: 60px;
-    margin: 0 auto;
-    display: table;
-    /*  ⇑  ⇐  ⇓  ⇒ */
-    box-shadow: -1px -2px 5px 13px rgba(230, 225, 225, 0.75);
+body {
+    background-color: rgb(88, 35, 177);
+    margin: 0px;
 }
 
-.banner img{
-    width: 40%;
-    height: 500px;
-    float: right;
+#menu {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 10px;
 }
 
-.banner .texto{
-    margin-top: 50px;
-    width: 50%; 
-    font-size: 22px;
+#menu img {
+    height: 60px;
+    margin-right: 50%;
+}
+
+.linkMenu {
+    color: white;
+    font-size: 2em;
+    margin-right: 3%;
+}
+
+.parte1 img {
+    width: 100%;
+    height: 765px;
+
+}
+
+.parte1 h1 {
+    color: white;
+    font-family: Arial
+}
+
+.parte1 h2 {
+    color: rgb(236, 19, 84);
+    
+
 }
 
 @media screen and (max-width: 998px) {
