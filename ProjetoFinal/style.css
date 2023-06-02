@@ -12,3 +12,19 @@
     margin-top: 20px;
 }
 
+.mineiro{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card-body {
+    text-align: center;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(242, 245, 247);
+}
+
