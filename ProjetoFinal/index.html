@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,37 +15,45 @@
     <section>
         <header>
             <nav class="navbar navbar-expand-lg navbar bg-white border-bottom border-bottom-white">
-                    <nav class="navbar bg-body-white">
-                            <div class="container-fluid bg-white border-bottom-white">
-                            <a class="navbar-brand" href="index.html">
-                                <img src="img/Logo.jpg" alt="" width="82" height="51">
-                            </a>
-                        </div>
-                    </nav>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="cadastro.html">Cadastre-se</a>
-                            </li>
-                            <li>
-                            <a class="nav-link active" aria-current="page" href="login.html">Login</a>
-                            </li>
-                        </ul>
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                            <button class="btn" type="submit">Buscar</button>
-                        </form>
+                <nav class="navbar bg-body-white">
+                    <div class="container-fluid bg-white border-bottom-white">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="img/Logo.jpg" alt="" width="82" height="51">
+                        </a>
                     </div>
+                </nav>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="sobreNos.html">Sobre Nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="cadastro.html">Cadastre-se</a>
+                        </li>
+                        <li>
+                            <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="populares.html"
+                                id="lpopulares">Populares</a>
+                        </li>
+                        <img src="img/icon.png" width="27px" height="27px" alt="Ícone Usuário" id="userIcon">
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn" type="submit">Buscar</button>
+                    </form>
+                </div>
                 </div>
             </nav>
-     </header>
+        </header>
     </section>
-</section>
+    </section>
     <div class="paulista">
         <h2>CLÁSSICOS!</h2>
     </div>
@@ -54,22 +63,34 @@
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/Majestoso.png" class="d-block w-100" alt="...">
+                        <a class="classico1" href="ingressosPopulares3.html">
+                            <img src="img/Majestoso.png" class="d-block w-100" alt="...">
+                        </a>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/Choque-Rei.png" class="d-block w-100" alt="...">
+                        <a href="ingressosPopulares2.html" class="classico2">
+                            <img src="img/Choque-Rei.png" class="d-block w-100" alt="...">
+                        </a>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/SAN x SÃO.png" class="d-block w-100" alt="...">
+                        <a href="ingressosPopulares10.html" class="classico3">
+                            <img src="img/SAN x SÃO.png" class="d-block w-100" alt="...">
+                        </a>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/Clássico Alvinegro.png" class="d-block w-100" alt="...">
+                        <a href="ingressosPopulares9.html" class="classico4">
+                            <img src="img/Clássico Alvinegro.png" class="d-block w-100" alt="...">
+                        </a>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/Classico da Saudade.png" class="d-block w-100" alt="...">
+                        <a href="ingressosPopulares4.html" class="classico5">
+                            <img src="img/Classico da Saudade.png" class="d-block w-100" alt="...">
+                        </a>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/Derby Paulista.png" class="d-block w-100" alt="...">
+                        <a href="ingressosPopulares1.html" class="classico6">
+                            <img src="img/Derby Paulista.png" class="d-block w-100" alt="...">
+                        </a>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
@@ -281,9 +302,10 @@
             </div>
         </div>
     </section>
-</div>
+    </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
+
 </html>

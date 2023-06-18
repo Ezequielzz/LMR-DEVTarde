@@ -30,11 +30,18 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="sobreNos.html">Sobre Nós</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="cadastro.html">Cadastre-se</a>
                         </li>
                         <li>
                             <a class="nav-link active" aria-current="page" href="login.html">Login</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="populares.html" id="lpopulares">Populares</a>
+                        </li>
+                        <img src="img/icon.png" width="27px" height="27px" alt="Ícone Usuário" id="userIcon">
                     </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
@@ -59,7 +66,7 @@
                         <input type="checkbox" id="lrelembrar" name="relembrar" value="relembrar"> Lembrar-me
                         <a href="senha.html" id="esqueciSenha">Esqueci minha Senha</a>
                     </div>
-                    <input type="submit" id="lenviar" value="Entrar" name="enviar" size="10">
+                    <input type="submit" id="lenviar" value="Entrar" name="enviar" size="10" onclick="login()">
                     <a href="cadastro.html" id="novoCadastro">Novo Aqui? Faça Seu Cadastro.</a>
                 </div>
             </div>
